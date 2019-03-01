@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.haobi.okhttpdemo.MainActivity">
+
+    <Button
+        android:id="@+id/sync_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sync_Get"/>
+
+    <Button
+        android:id="@+id/async_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Async_Get"/>
+
+    <Button
+        android:id="@+id/sync_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sync_Post"/>
+
+    <Button
+        android:id="@+id/async_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Async_Post"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网络请求结果如下：(可滑动查看)"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+
+    </ScrollView>
+
+
+</LinearLayout>
